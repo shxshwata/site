@@ -6,29 +6,124 @@
     <title>Shashwata Ghosh | Home</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            background-color: #f0f0f0;
+            color: #333;
         }
-        .content {
+        header {
+            background-color: #40034a;
+            color: #fff;
+            padding: 20px 0;
             text-align: center;
-            margin-top: 50px;
         }
-        img {
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .intro img {
+            border-radius: 50%;
+            width: 400px;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+        .portfolio-item img {
             max-width: 100%;
             height: auto;
-            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <h1>Welcome to My Website</h1>
-        <p>This is a basic webpage with some text and an image.</p>
-        <img src="https://via.placeholder.com/600x400" alt="Sample Image">
-    </div>
+
+<header>
+    <h1>Shashwata Ghosh</h1>
+    <nav>
+        <ul>
+            <li><a href="#intro">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="intro" class="intro">
+        <img src="Photo on 04-02-23 at 6.56 PM #2.jpeg" alt="Shashwata Ghosh">
+        <h2>About Me</h2>
+        <p>Hi! I am Shashwata Ghosh. I am currently a 19 year old student at BITS Pilani, Hyderabad Campus, studying M.Sc. Physics and B.E. Electronics and Electrical Engineering. I have made this website on my own as a coding project and hosted it using GitHub.</p>
+    </section>
+    <!--
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/600x400" alt="Project 1">
+            <h3>Project Title 1</h3>
+            <p>Brief description of the project goes here.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/600x400" alt="Project 2">
+            <h3>Project Title 2</h3>
+            <p>Brief description of the project goes here.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/600x400" alt="Project 3">
+            <h3>Project Title 3</h3>
+            <p>Brief description of the project goes here.</p>
+        </div>
+    </section>
+    -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+    </section>
+</div>
+<!--
+<footer>
+    <p>© 2024 Shashwata Ghosh. All Rights Reserved.</p>
+</footer>
+-->
 </body>
 </html>
