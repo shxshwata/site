@@ -6,4 +6,4 @@ I will be covering the following pointers:-
 ‣ Skills
 ‣
 
-Link to access the site: 
+Link to access the site: https://shxshwata.github.io/Shashwata-Ghosh.github.io/
